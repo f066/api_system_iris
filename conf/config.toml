@@ -1,0 +1,16 @@
+#全局配置
+listenAddr = "0.0.0.0"
+#默认 8080
+listenPort = 8080
+
+#RootUrl = "http://10.0.0.22:8080"
+
+#允许设置为 "disable","fatal","error","warn","info","debug"
+logLevel = "info"
+
+[zstack]
+enable = true
+    [zstack.license]
+    enable = true
+    cert = "./conf/certs/zstack.pem"
+    privatekey = "./conf/certs/zstack.key"
